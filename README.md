@@ -534,3 +534,9 @@ The pipe basically uses the database.sql as input into the heroku postgresql
 
 To connect the git repository to heorku  
 `heroku git:remote -a pern-fullstack-todo-tutorial`
+
+To then push to heroku, we say  
+`git push heroku master`
+
+To open our app from command line, we say  
+`heroku open`
